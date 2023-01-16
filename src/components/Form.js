@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 function Form(props) {
-  const [firstName, setFirstName] = useState("Sylvia");
-  const [lastName, setLastName] = useState("Woods");
+  const [firstName, setFirstName] = useState("John");
+  const [lastName, setLastName] = useState("Henry");
   const [submittedData, setSubmittedData] = useState([]);
   const[errors, setErrors]=useState([])
 
